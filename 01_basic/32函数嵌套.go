@@ -1,4 +1,4 @@
-package _1_basic
+package main
 
 import "fmt"
 
@@ -28,7 +28,7 @@ func first1(args ... int) {
 func main() {
 	// 1、什么是函数嵌套
 	// 在一个函数中调用另一个函数
-	
+
 	// 2、函数嵌套的执行过程
 	first(1, 2)
 

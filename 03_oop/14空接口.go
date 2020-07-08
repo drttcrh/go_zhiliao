@@ -31,7 +31,7 @@ func main() {
 	// 空接口类型的切片
 	var s []interface{}
 	fmt.Printf("%T\n", s)		// []interface {}
-	s = append(s, 10, 2.23, true, "golang", [2]int{1, 2}, []string{"loedan", "aha"}, test14)
+	s = append(s, 10, 2.23, true, "golang", [2]int{1, 2}, []string{"loedan", "aha"}, test14) // test14 是一个方法名，方法名打印出来是一个内存地址
 	fmt.Println(s)
 }
 

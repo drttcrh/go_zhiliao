@@ -1,4 +1,4 @@
-package _1_basic
+package main
 
 import "fmt"
 
@@ -22,5 +22,5 @@ func indefiniteLengthParamsFunc(args ... int)  {
 
 func main() {
 	sum(1, 2)
-	indefiniteLengthParamsFunc()
+	indefiniteLengthParamsFunc(1, 2, 3)
 }

@@ -1,11 +1,11 @@
-package _1_basic
+package main
 
 import "fmt"
 
 func main() {
 	var num = 10
 	// 无参数匿名函数
-	
+
 	// 方式一
 	f := func() {
 		num ++
@@ -21,7 +21,7 @@ func main() {
 		fmt.Println(num)	// 10
 	}()
 	fmt.Println(num)	// 10
-	
+
 	// 方式三
 	type Anonymous func()
 	var f1 Anonymous

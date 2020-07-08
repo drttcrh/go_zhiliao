@@ -1,4 +1,4 @@
-package _1_basic
+package main
 
 import "fmt"
 
@@ -14,7 +14,7 @@ func main() {
 		sum = sum + i
 	}
 	fmt.Println(sum)
-	
+
 	// 三、range
 	// 通过 for 循环打印每一个字符
 	str := "loedan"

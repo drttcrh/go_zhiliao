@@ -1,4 +1,4 @@
-package _1_basic
+package main
 
 import "fmt"
 
@@ -32,5 +32,5 @@ func main() {
 		j = 3.13
 	)
 	fmt.Println(i, j)
-	fmt.Printf("%T, %T", i, j)
+	fmt.Printf("%T, %T\r\n", i, j)
 }

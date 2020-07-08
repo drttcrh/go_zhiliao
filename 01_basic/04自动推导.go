@@ -1,4 +1,4 @@
-package _1_basic
+package main
 
 import "fmt"
 
@@ -6,7 +6,7 @@ func main() {
 	// 自动推导
 	var a = 10
 	fmt.Println(a)
-	fmt.Printf("%T", a)
+	fmt.Printf("%T\r\n", a)
 
 	// 常用的自动推导
 	// 自动推导 := 左边变量名
@@ -17,5 +17,5 @@ func main() {
 
 	c := 3.14
 	fmt.Println(c)
-	fmt.Printf("%T", c)
+	fmt.Printf("%T\r\n", c)
 }

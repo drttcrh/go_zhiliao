@@ -20,7 +20,7 @@ func main() {
 	fmt.Printf("%T\n", str3)
 
 	// len函数，计算字符串中字符的个数
-	// 在 go 语言中，一个汉子占三个字符
+	// 在 go 语言中，一个汉字占三个字符
 	fmt.Println(len(str3))
 
 	// 字符串拼接
